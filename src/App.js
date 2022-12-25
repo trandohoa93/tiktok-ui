@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { privateRoute, protectedRoute } from './routes';
 import { DefaulLayout } from './layouts';
 import { Fragment } from 'react';
+
 function App() {
     return (
         <Router>
